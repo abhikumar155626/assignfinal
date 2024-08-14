@@ -1,0 +1,77 @@
+header{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: -2%;
+  }
+
+  .welcome{
+    margin-top: 350px; 
+    justify-content: center;
+  }
+  section{
+    width: 60%;
+    margin: auto;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+     
+      
+      display:flex;
+      justify-content:center;
+      
+    }
+    .container1{
+     background:  rgb(9, 64, 109);
+    background: linear-gradient(0deg, rgb(9, 64, 109) 0%, #032b75 100%);
+    }
+    h1{
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      padding-top: 2px ;
+        display: block;
+        color:rgb(221, 12, 12);
+      text-align: center;
+    }
+    
+    li {
+      float: left;
+      
+      
+    }
+    
+    li a {
+      display: block;
+      color: orange;
+      text-align: center;
+      padding: 14px 10px 0 4px;
+      text-decoration: none;
+    }
+    #abc{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .active {
+      background-color: #000;
+    }
+    .login{
+      background-color: red;
+      margin-left: 790px;
+    } 
+    .signup{
+      background-color: rgb(12, 96, 129);
+      /* margin-left: 790px; */
+    } 
+    body{
+      background-image: url(img.webp);
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: cover;
+    }
+    .row{
+      display: flex;
+    }
